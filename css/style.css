@@ -1,0 +1,383 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.container{
+    width: 1500px;
+    position: relative;
+    margin: 0 auto 0 auto;
+    padding: 5px;
+}
+
+
+
+.parent{
+    background-image: url(../loopstudios-landing-page-main/images/desktop/image-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 1420px;
+    height: 620px;
+    padding: 40px;
+}
+
+
+.navigation{
+    width: 400px;
+    height: 50px;
+    text-align: center;
+    position: relative;
+    left: 940px;
+    top: -30px;
+
+}
+
+
+
+.navigation a{
+    padding: 20px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 1,25rem;
+    color: white;
+    }
+
+
+
+.logo{
+    font-size: 55px;
+    margin-top: 50px;
+    margin-left: 70px;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+.paragraph{
+    border-style: solid;
+    border-width: 2px;
+    width: 530px;
+    height: 240px;
+    font-size: 3.75rem;
+    text-transform: uppercase;
+    position: relative;
+    top: 150px;
+    margin-left: 150px;
+    text-align: center;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.paragraph p{
+    padding: 5px;
+    margin-top: 30px;
+    line-height: 1;
+    text-rendering: geometricPrecision;
+    text-indent: -40px;
+
+}
+
+
+
+
+
+.grand-parent{
+    background-color: white;
+    width: 142px;
+    padding: 40px;
+}
+
+
+
+
+
+.image{
+    background-image: url(../loopstudios-landing-page-main/images/desktop/image-interactive.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 600px;
+    height: 400px;
+    padding: 5px;
+    position: relative;
+    left: 200px;
+    top: 50px;
+
+}
+
+
+
+
+.image-cross{
+    background-color: white;
+    width: 450px;
+    height: 280px;
+    padding: 5px;
+    position: relative;
+    left: 680px;
+    bottom: 200px;
+    
+    
+}
+
+
+.image-cross h1{
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+
+.image-cross p{
+    color: hsl(0, 0%, 55%);
+    text-indent: -2px;
+    margin-top: 20px;
+    font-family: 'josefin sans', sans-serif;
+    margin-left: 40px;
+    padding-right: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+
+.creations{
+    color: black;
+    text-transform: uppercase;
+    margin-left: 200px;
+    position: relative;
+    bottom: 130px;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+
+
+.btn{
+    padding: 4px;
+    background: none;
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+    position: relative;
+    left: 1050px;
+    bottom: 130px;
+
+}
+
+
+
+.btn a{
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+}
+
+
+
+.btn:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+
+.btn a:hover{
+    color: white;
+}
+
+
+
+.flexbox-1{
+    background-color: white;
+    display: flex;
+    position: relative;
+    bottom: 90px;
+    width: 1100px;
+    height: 560px;
+    margin-left: 150px;
+    padding: 10px;
+}
+
+
+.flexbox-1 p{
+    color: white;
+    margin-top: -100px;
+    margin-left: 50px;
+    font-size: 1.88rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+
+.flexbox-1 div{
+    width: 200px;
+    height: 400px;
+}
+
+
+
+.deep-earth{
+ position: relative;
+ left: 20px;
+}
+
+
+
+
+.night-arcade{
+   position: relative;
+   left: 90px;
+}
+
+
+
+
+.soccer-team{
+    position: relative;
+    left: 160px;
+}
+
+
+
+
+
+.the-grid{
+    position: relative;
+    left: 230px;
+
+}
+
+
+
+
+
+
+
+.flexbox-2{
+    background-color: white;
+    display: flex;
+    position: relative;
+    bottom: 90px;
+    width: 1100px;
+    height: 500px;
+    margin-left: 150px;
+    padding: 10px;
+}
+
+
+.flexbox-2 div{
+    width: 200px;
+    height: 400px;
+}
+
+
+
+
+.up-above{
+    position: relative;
+    left: 20px;
+    bottom: 110px;
+}
+   
+
+
+
+
+.pocket{
+    position: relative;
+    left: 90px;
+    bottom: 110px;
+}
+
+
+
+.curiosity{
+    position: relative;
+    left: 160px;
+    bottom: 110px;
+}
+
+
+
+.fisheye{
+    position: relative;
+    left: 230px;
+    bottom: 110px;
+}
+
+
+
+
+
+.flexbox-2 p{
+    color: hsl(0, 0%, 100%);
+    margin-top: -100px;
+    margin-left: 50px;
+    font-size: 1.88rem;
+    font-weight: 300;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+.footer{
+    background-color: black;
+    width: 1485px;
+    height: 150px;
+    padding: 10px;
+}
+
+
+.footer-logo{
+    color: white;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+
+.footer-navigation{
+    position: relative;
+    left: 150px;
+    top:20px
+
+}
+
+
+
+
+.footer-navigation a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+
+.icons{
+    position: relative;
+    left: 1200px;
+    bottom: 70px;
+}
+
+
+
+.icons a{
+    text-decoration: none;
+    padding: 5px;
+}
+
+
+
+
